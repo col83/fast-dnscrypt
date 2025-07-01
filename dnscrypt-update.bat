@@ -18,8 +18,5 @@ cd .\dnscrypt-proxy\
 rename example-dnscrypt-proxy.toml dnscrypt-proxy.toml
 rename example-captive-portals.txt captive-portals.txt
 
-.\curl -o ".\dnscrypt-proxy\relays.md" https://download.dnscrypt.info/resolvers-list/v3/relays.md
-.\curl -o ".\dnscrypt-proxy\relays.md.minisig" https://download.dnscrypt.info/resolvers-list/v3/relays.md.minisig
-
 echo.
 pause
