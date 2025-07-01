@@ -15,8 +15,8 @@ IF EXIST ".\dnscrypt-proxy" (rd /s /q ".\dnscrypt-proxy" & timeout 1)
 rd /q ".\dnscrypt-proxy\win64"
 
 cd .\dnscrypt-proxy\
-rename example-dnscrypt-proxy.toml dnscrypt-proxy.toml
-rename example-captive-portals.txt captive-portals.txt
+copy example-dnscrypt-proxy.toml dnscrypt-proxy.toml
+copy example-captive-portals.txt captive-portals.txt
 
 echo.
 pause
