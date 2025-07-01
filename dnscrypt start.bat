@@ -1,0 +1,1 @@
+IF EXIST ".\dnscrypt-proxy" (".\dnscrypt-proxy\dnscrypt-proxy.exe")
